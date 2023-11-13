@@ -1,0 +1,105 @@
+* > * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  background: linear-gradient(
+      173deg,
+      rgba(84, 35, 215, 0.24) -20.49%,
+      rgba(31, 61, 167, 0) 93.7%
+    ),
+    #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.62rem;
+}
+
+/* .image-container {
+  flex-grow: 1;
+} */
+
+.image-container img {
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.form-container h1 {
+  color: #222;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.btn {
+  border-radius: 0.9375rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.google-btn {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  color: #222;
+  font-size: 1.75rem;
+  line-height: 2.25rem; /* 128.571% */
+  letter-spacing: 0.03125rem;
+  background: transparent;
+  display: flex;
+  padding: 0rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.divider {
+  margin-top: 1.5rem;
+  color: #222;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.25rem; /* 150% */
+  letter-spacing: 0.03125rem;
+}
+
+.form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+input {
+  background: transparent;
+  padding: 0 1.5rem;
+  color: #222;
+  font-size: 1.75rem;
+  line-height: 2.25rem; /* 128.571% */
+  letter-spacing: 0.03125rem;
+}
+
+.submit-btn {
+    align-self: stretch;
+  background: #4c14e2;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1.25rem;
+  font-size: 1.75rem;
+  line-height: 2.25rem; /* 128.571% */
+  letter-spacing: 0.03125rem;
+}
